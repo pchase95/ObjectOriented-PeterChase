@@ -16,7 +16,7 @@ public class HomeRunHTMLRpt extends HomeRunTextRpt {
 			writer.println("<html>");
 			writer.println("<head><title>Home Run Report</title></head>");
 			writer.println("<body><table border=\"1\">");
-			writer.println("<tr><td><b>Name</b?</td><td><b>Stat</b></td></tr>");
+			writer.println("<tr><td><b>Name</b></td><td><b>Stat</b></td></tr>");
 			for (DataPair dp : data) {
 				writer.println("<tr>");
 				if (dp.getStat() != -1)
