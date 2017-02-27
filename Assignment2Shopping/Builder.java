@@ -2,7 +2,7 @@
 public class Builder {
 	private static Builder instance;
 	
-	protected Builder() {}
+	private Builder() {}
 	
 	public IDecision buildWizard() {
 		IDecision board1 = new Decision("Do you want to buy a snowboard?");
