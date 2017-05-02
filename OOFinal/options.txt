@@ -1,0 +1,26 @@
+# [Heroes]
+# Random = 0
+# Pepe = 1 (Click on bad guys with left mouse to shoot them)
+# Sanic = 2 (Press space to go fast, whilst speeding you can run over your enemies)
+# Elf = 3 (Use space to grow and shrink, whilst growing or shrinking you will absord enemies you touch)
+# (Ex) hero:1 will spawn hero as Pepe
+	hero:1
+#
+#
+# [Enemies]
+# Random = 0
+# Pokeball = 1 (Bounces on walls)
+# Ghost = 2 (Moves horizontally and teleports to a new Y location upon reaching edge)
+# Trump = 3 (Moves slowly and randomly whilst growing and shrinking)
+# Hillary = 4 (Moves erratically and occasionally teleports
+# (Ex) enemyA:2 will spawn enemy type A as Ghost
+	enemyA:4
+	enemyB:2
+#
+#
+# [Views]
+# Bar View = 1 (Displays most info with bars)
+# Number View = 2 (Displays most info with digits and tally)
+# (Ex) view:1 will use the bar view
+	view:1
+#
